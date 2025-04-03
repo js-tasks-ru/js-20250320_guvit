@@ -5,7 +5,7 @@
  */
 export function invertObj(obj) {
   if (typeof obj !== 'object' || obj === null) {
-    return undefined;
+    return;
   }
   const resValKey = {};
   for (const [key, value] of Object.entries(obj)) {
